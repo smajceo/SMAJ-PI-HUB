@@ -1,0 +1,82 @@
+.dashboard-container {
+  display:flex;
+  min-height:80vh;
+}
+
+.dashboard-sidebar {
+  width:220px;
+  background:#0b0f1a;
+  color:#fff;
+  padding:20px;
+}
+
+.dashboard-sidebar ul {
+  list-style:none;
+}
+
+.dashboard-sidebar ul li {
+  margin:20px 0;
+}
+
+.dashboard-sidebar ul li a {
+  color:#ccc;
+  text-decoration:none;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.dashboard-sidebar ul li a:hover {
+  color:#7d3cff;
+}
+
+.dashboard-main {
+  flex:1;
+  padding:30px;
+}
+
+.dashboard-cards {
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+  gap:20px;
+  margin-top:20px;
+}
+
+.card {
+  background:#1a1f2e;
+  color:#fff;
+  padding:20px;
+  border-radius:10px;
+}
+
+.transactions table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top:20px;
+  color:#fff;
+}
+
+.transactions th, .transactions td {
+  border:1px solid #333;
+  padding:10px;
+  text-align:left;
+}
+
+.wallet-actions {
+  margin-top:20px;
+  display:flex;
+  gap:10px;
+}
+
+.wallet-actions button {
+  background:#7d3cff;
+  border:none;
+  color:#fff;
+  padding:10px 20px;
+  cursor:pointer;
+  border-radius:6px;
+}
+
+.wallet-actions button:hover {
+  background:#5a24b6;
+}

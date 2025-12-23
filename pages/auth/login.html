@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login — SMAJ PI HUB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/auth.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container nav">
+    <div class="logo">
+      <img src="../../assets/images/logo.svg" alt="SMAJ PI HUB Logo">
+      <span>SMAJ PI HUB</span>
+    </div>
+
+    <a href="../../index.html" class="wallet-btn">
+      <i class='bx bx-home'></i> Home
+    </a>
+  </div>
+</header>
+
+<!-- AUTH CONTAINER -->
+<main class="auth-container">
+
+  <div class="auth-box">
+
+    <h1>Welcome Back</h1>
+    <p>Login to your SMAJ PI HUB account</p>
+
+    <!-- LOGIN FORM -->
+    <form id="loginForm">
+      <div class="input-group">
+        <i class='bx bx-user'></i>
+        <input type="text" placeholder="Username or Email" required>
+      </div>
+
+      <div class="input-group">
+        <i class='bx bx-lock'></i>
+        <input type="password" placeholder="Password" required>
+      </div>
+
+      <button type="submit" class="auth-btn">
+        <i class='bx bx-log-in'></i> Login
+      </button>
+    </form>
+
+    <div class="divider">OR</div>
+
+    <!-- PI WALLET LOGIN -->
+    <button class="pi-login-btn" id="piLoginBtn">
+      <i class='bx bx-wallet'></i> Login with Pi Wallet
+    </button>
+
+    <div class="auth-links">
+      <a href="#">Forgot Password?</a>
+      <a href="#">Create Account</a>
+    </div>
+
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>SMAJ PI HUB</h4>
+      <p>Secure access to real Pi-powered services.</p>
+    </div>
+
+    <div>
+      <h4>Legal</h4>
+      <a href="../terms.html">Terms</a>
+      <a href="../privacy.html">Privacy</a>
+    </div>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="../../js/main.js"></script>
+<script src="../../js/auth.js"></script>
+
+</body>
+</html>
